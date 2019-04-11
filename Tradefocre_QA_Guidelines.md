@@ -9,7 +9,7 @@ The purpose of this guide is to introduce how does the Quality Assurance area is
 
 ## Table of Contents
 - [Summary](#summary)
-- [What is Trade Force](#WhatisTradeForce)
+- [What is Trade Force](#What is Trade Force)
 - [How we work](#Howwework)
 - [What is Trade Force](#WhatisTradeForce)
 - [Software and Tools](#SoftwareandTools)
@@ -141,6 +141,8 @@ The automated test scripts are developed in java using cucumber framework, but w
 | Moto E4 | 7.1.1 |
 
 There’s a lot more models available but it’s divided by QA and Dev team, for further information, check the [Link](https://accerasuplychain-my.sharepoint.com/:x:/r/personal/maycon_cardoso_accera_com_br/_layouts/15/Doc.aspx?sourcedoc=%7B3ccb3e98-78f2-47b7-9ca4-7174b8cfb91c%7D&action=default&cid=61f681ac-4087-4fa3-842d-c7217c69fe12).
+
+## Code
 
 To be able to develop faster test scripts using cucumber, it’s recommended to use Karate framework. Please read it’s documentation on github: https://github.com/intuit/karate.
 
