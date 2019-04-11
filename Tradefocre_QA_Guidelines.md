@@ -9,7 +9,7 @@ The purpose of this guide is to introduce how does the Quality Assurance area is
 
 ## Table of Contents
 - [Summary](#summary)
-- [What is Trade Force](#What is Trade Force)
+- [What is Trade Force](#WhatisTradeForce)
 - [How we work](#Howwework)
 - [What is Trade Force](#WhatisTradeForce)
 - [Software and Tools](#SoftwareandTools)
