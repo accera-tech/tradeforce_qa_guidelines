@@ -10,10 +10,10 @@ The purpose of this guide is to introduce how does the Quality Assurance area is
 ## Table of Contents
 - [Summary](#summary)
 - [What is Trade Force](#What-is-Trade-Force)
-- [How we work](#Howwework)
-- [Software and Tools](#SoftwareandTools)
+- [How we work](#How-we-work)
+- [Software and Tools](#Software-and-Tools)
 - [Code](#Code)
-- [Our goal as a team](#Ourgoalasateam)
+- [Our goal as a team](#Our-goal-as-a-team)
 
 ## What is Trade Force
 
