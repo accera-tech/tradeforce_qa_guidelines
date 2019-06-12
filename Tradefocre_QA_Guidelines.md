@@ -88,6 +88,17 @@ After Dev team fix the issue, the respective Story should be put again on TIP ta
 -	Which error was fixed;
 -	App version containing the correction;
 
+### Reports and Metrics
+
+As the whole team moves according to Kanban methodology, we have two weeks per sprint. When a sprint ends, we have a retrospective meeting.
+
+In order to enable the management team and also our own team, to make accurate assumptions regarding the team and the software developed, our role as QA team is to provide these information and also give insights about the software quality in general. To do so, It's need to extract qualified data from our test executions and bugs found. For this purpose, the following Jira queries were created.
+
+- Bugs found on current sprint: project = TMK AND type = Bug AND created > "2019/05/31"
+- Bugs by feature: project = TMK AND type = Bug AND summary ~ Chat ORDER BY created DESC
+- Stories reopened per sprint: project = TMK AND type = Story AND labels = Reopened AND created > "2019/05/31"
+
+
 ## Software and Tools
 
 Quality Assurance team perform automated tests on Tradeforce’s mobile App to the web portal and also the data flow thru APIs. All defects and new features from this software is also tested by QA team.
