@@ -96,7 +96,7 @@ In order to enable the management team and also our own team, to make accurate a
 
 - Bugs found on past two weeks: project = TMK AND type = Bug AND created > "2019/05/31"
 - Bugs by feature: project = TMK AND type = Bug AND summary ~ Chat ORDER BY created DESC
-- Stories reopened on past two weeks: project = TMK AND type = Story AND labels = Reopened AND created > "2019/05/31"
+- Stories reopened on past two weeks: project = TMK AND type = Story AND labels = Reopened AND created < "2019/05/31"
 
 
 ## Software and Tools
