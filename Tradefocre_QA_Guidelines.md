@@ -90,13 +90,13 @@ After Dev team fix the issue, the respective Story should be put again on TIP ta
 
 ### Reports
 
-As the whole team moves according to Kanban methodology, we have two weeks per sprint. When a sprint ends, we have a retrospective meeting.
+As the whole team moves according to Kanban methodology, we don't have sprints, however, we can assume that our package delivery is currently varying from two to tree weeks, so based on that, we should deliver a full report when a package is delivered.
 
 In order to enable the management team and also our own team, to make accurate assumptions regarding the team and the software developed, our role as QA team is to provide these information and also give insights about the software quality in general. To do so, It's need to extract qualified data from our test executions and bugs found. For this purpose, the following Jira queries were created.
 
-- Bugs found on current sprint: project = TMK AND type = Bug AND created > "2019/05/31"
+- Bugs found on past two weeks: project = TMK AND type = Bug AND created > "2019/05/31"
 - Bugs by feature: project = TMK AND type = Bug AND summary ~ Chat ORDER BY created DESC
-- Stories reopened per sprint: project = TMK AND type = Story AND labels = Reopened AND created > "2019/05/31"
+- Stories reopened on past two weeks: project = TMK AND type = Story AND labels = Reopened AND created > "2019/05/31"
 
 
 ## Software and Tools
