@@ -75,12 +75,12 @@ When an error is found in the test execution, It must be logged as a Bug. In Jir
 [Component/Feature] - Short description
 3. On "Passos para reprodução", fill in the exact steps that the user must follow in order to have the same result as is described on "Resumo"
 4. On "Componentes", select whether "Mobile" or "Portal" according to the application tested
-5. On "Descrição", insert a detailed description about the bug and it's effects to the system components.
+5. On "Descrição", insert a detailed description about the bug and it's effects to the system components
 6. Classify the severity of the bug on "Gravidade" dropdown, according to it's effect:
 
-1 - It affects minor or basic functions of the web or mobile solution, but does not prevent the use. 
-3 - It is not possible to perform important functions of the solution: exporting reports, managing itinerary, registrations.
-5 - You can not access basic functions such as the web or application platform such as routes and forms of the day.
+1 - It affects minor or basic functions of the web or mobile solution, but does not prevent the use 
+3 - It is not possible to perform important functions of the solution: exporting reports, managing itinerary, registrations
+5 - You can not access basic functions such as the web or application platform such as routes and forms of the day
 
 *Attach a screenshot or log file generated on the failing execution.      
 
