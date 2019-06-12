@@ -68,18 +68,21 @@ Currently is the tool used to organize all our deliverables and follow the Kanba
     * If there’s any error on the test execution, all the test evidences should be available for Dev and Products team
     * The Story must be put on REOPENED tab
     
-When an error is found in the test execution, It must be logged to the respective Story as a comment, following the format (repeat it for each error found in the test execution):
+When an error is found in the test execution, It must be logged as a Bug. In Jira's board screen, press "c" in order to create a new item and follow the format below (repeat it for each error found in the test execution):
 
-| Jira comments section |
-| --- |      
-| [Description of the error found] |
-|•	Android version |
-|•	App version |
-|[Steps to reproduce the error] |
-|1. Step 1 |
-|2. Step 2 |
-|3. Step 3… |
-|Attach a screenshot or log file generated on the failing execution. |      
+1. On "Tipo de Item" dropdown, select "Bug"
+2. On "Resumo", follow the pattern below and give a short and direct description of the bug:
+[Component/Feature] - Short description
+3. On "Passos para reprodução", fill in the exact steps that the user must follow in order to have the same result as is described on "Resumo"
+4. On "Componentes", select whether "Mobile" or "Portal" according to the application tested
+5. On "Descrição", insert a detailed description about the bug and it's effects to the system components.
+6. Classify the severity of the bug on "Gravidade" dropdown, according to it's effect:
+
+1 - It affects minor or basic functions of the web or mobile solution, but does not prevent the use. 
+3 - It is not possible to perform important functions of the solution: exporting reports, managing itinerary, registrations.
+5 - You can not access basic functions such as the web or application platform such as routes and forms of the day.
+
+*Attach a screenshot or log file generated on the failing execution.      
 
 After Dev team fix the issue, the respective Story should be put again on TIP tab ONLY after the deploy of the correction is done. As QA team we expect the following info in the comments section of the Story:
 -	Which error was fixed;
