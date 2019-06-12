@@ -78,9 +78,9 @@ When an error is found in the test execution, It must be logged as a Bug. In Jir
 5. On "Descrição", insert a detailed description about the bug and it's effects to the system components
 6. Classify the severity of the bug on "Gravidade" dropdown, according to it's effect:
 
-1 - It affects minor or basic functions of the web or mobile solution, but does not prevent the use 
-3 - It is not possible to perform important functions of the solution: exporting reports, managing itinerary, registrations
-5 - You can not access basic functions such as the web or application platform such as routes and forms of the day
+- 1 - It affects minor or basic functions of the web or mobile solution, but does not prevent the use 
+- 3 - It is not possible to perform important functions of the solution: exporting reports, managing itinerary, registrations
+- 5 - You can not access basic functions such as the web or application platform such as routes and forms of the day
 
 *Attach a screenshot or log file generated on the failing execution.      
 
