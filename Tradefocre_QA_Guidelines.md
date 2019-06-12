@@ -88,7 +88,7 @@ After Dev team fix the issue, the respective Story should be put again on TIP ta
 -	Which error was fixed;
 -	App version containing the correction;
 
-### Reports and Metrics
+### Reports
 
 As the whole team moves according to Kanban methodology, we have two weeks per sprint. When a sprint ends, we have a retrospective meeting.
 
