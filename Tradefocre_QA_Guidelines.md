@@ -40,7 +40,7 @@ Our main ceremonies are:
 > For the mobile app, currently is generated a release per month, as for the web portal, the release is generated when its deliverables are not just bug fixes but contains some new features. Regression tests are very important at this scenario.
 
 - Retrospective meeting 
-> Is when the whole team meets to discuss the following points regarding the last sprint: What went well, what was not good and what we can do to improve the process. In this meeting, QA team will showcase the deliverables to the team and specially to PO and product team.  
+> Is when the whole team meets to discuss the following points regarding the last sprint or the last two-three weeks: What went well, what was not good and what we can do to improve the process. In this meeting, QA team will showcase the deliverables to the team and specially to PO and product team.  
 
 Currently our process is:
 
@@ -90,7 +90,7 @@ After Dev team fix the issue, the respective Story should be put again on TIP ta
 
 ### Reports
 
-As the whole team moves according to Kanban methodology, we don't have sprints, however, we can assume that our package delivery is currently varying from two to tree weeks, so based on that, we should deliver a full report when a package is delivered.
+As the whole team moves according to Kanban methodology, we don't have sprints, however, we can assume that our package delivery is currently varying from two to three weeks, so based on that, we should deliver a full report when a package is delivered.
 
 In order to enable the management team and also our own team, to make accurate assumptions regarding the team and the software developed, our role as QA team is to provide these information and also give insights about the software quality in general. To do so, It's need to extract qualified data from our test executions and bugs found. For this purpose, the following Jira queries were created.
 
